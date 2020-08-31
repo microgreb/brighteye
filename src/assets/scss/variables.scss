@@ -1,0 +1,122 @@
+//Colors
+//ToDo make css variables
+$black: #191928;
+$black-blue: #000028;
+
+$light_grey: #E6E6E6;
+$very_light_grey: #F5FAFA;
+
+$blue: #00b4fa;
+$green: #64dc32;
+$yellow: #ffc800;
+
+
+// Css variables
+body {
+
+  /*Desktop + Mobile*/
+  --mc_gold: #FFC800;
+  --mc_gold_light: #FFF9E4;
+  --mc_platinum: #8C8C8C;
+  --mc_platinum_light: #F4F4F4;
+  --mc_certified_light: #F3FCFF;
+
+  /*Desktop*/
+  @media only screen and (min-width: 768px) {
+    --vw_1: 0.052vw;
+    --vw_2: 0.104vw;
+    --vw_3: 0.156vw;
+    --vw_5: 0.260vw;
+    --vw_8: 0.416vw;
+    --vw_13: 0.677vw;
+    --vw_16: 0.833vw;
+    --vw_21: 1.093vw;
+    --vw_26: 1.354vw;
+    --vw_34: 1.77vw;
+    --vw_42: 2.1875vw;
+    --vw_55: 2.864vw;
+    --vw_68: 3.541vw;
+    --vw_89: 4.635vw;
+    --vw_110: 5.729vw;
+    --vw_144: 7.5vw;
+    --vw_178: 9.27vw;
+    --vw_233: 12.135vw;
+    --vw_288: 15vw;
+    --vw_377: 19.635vw;
+    --vw_610: 31.77vw;
+    --vw_754: 39.27vw;
+    --vw_987: 51.406vw;
+
+    //Main Colors
+    --mc_blue: #00c8fa;
+    --mc_blue_light: #E6FAFA;
+    --mc_yellow: #fac800;
+    --mc_yellow_light: #FAFAF5;
+    --mc_green: #00dc3c;
+    --mc_green_light: #F5FAF5;
+    --mc_black: #191928;
+
+    //--mc_blue_light: #fff;
+  }
+  /*Mobile*/
+  @media only screen and (max-width: 767px) {
+    --vw_1: .0925vw;
+    --vw_2: .185vw;;
+    --vw_3: .277vw;
+    --vw_5: .46vw;
+    --vw_8: .74vw;
+    --vw_13: 1.02vw;
+    --vw_16: 1.48vw;
+    --vw_21: 1.94vw;
+    --vw_26: 2.4vw;
+    --vw_34: 3.14vw;
+    --vw_42: 3.88vw;
+    --vw_55: 5.09vw;
+    --vw_68: 6.29vw;
+    --vw_89: 8.24vw;
+    --vw_110: 10.18vw;
+    --vw_144: 13.3vw;
+    --vw_178: 16.47vw;
+    --vw_233: 21.57vw;
+    --vw_288: 26.66vw;
+    --vw_377: 34.9vw;
+    --vw_610: 56.47vw;
+    --vw_754: 69.8vw;
+    --vw_987: 91.37vw;
+
+    //Main Colors
+    --mc_blue: #14dcfa;
+    --mc_yellow: #fadc00;
+    --mc_green: #00f03c;
+    --mc_black: #191928;
+  }
+}
+
+// Sass variables
+$vw_1: 0.052vw;
+$vw_2: 0.104vw;
+$vw_3: 0.156vw;
+$vw_5: 0.260vw;
+$vw_8: 0.416vw;
+$vw_13: 0.677vw;
+$vw_16: 0.833vw;
+$vw_21: 1.093vw;
+$vw_26: 1.354vw;
+$vw_34: 1.77vw;
+$vw_42: 2.1875vw;
+$vw_55: 2.864vw;
+$vw_68: 3.541vw;
+$vw_89: 4.635vw;
+$vw_110: 5.729vw;
+$vw_144: 7.5vw;
+$vw_178: 9.27vw;
+$vw_233: 12.135vw;
+$vw_288: 15vw;
+$vw_377: 19.635vw;
+$vw_610: 31.77vw;
+$vw_754: 39.27vw;
+$vw_987: 51.406vw;
+
+button {
+  white-space: nowrap;
+}
